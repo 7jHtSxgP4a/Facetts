@@ -1,14 +1,14 @@
 ## facetts
-* 内積空間におけるカーディナリティを推定するためのアルゴリズム
+* An algorithm for estimating the cardinality in inner product spaces
 
-## 環境
-* Linux OS(Ubuntu)
-* g++ 5.5.0
+## Environment
+* Linux OS (Ubuntu)
+* g++ 5.5.0 (or newer version)
 
-## 使い方
-* データセット
-    * rating data からMF（Matrix Factorization）（https://www.csie.ntu.edu.tw/~cjlin/libmf/ ）により作成する．
-    * データセットはdataset ディレクトリに置く．
+## How to use
+* Datasets
+    * Creast your datasets from, e.g., rating data, by using Matrix Factorization (https://www.csie.ntu.edu.tw/~cjlin/libmf/).
+    * Place your datasets at ``dataset`` directory.
         * 例　../dataset/netflix_mf-50.txt
     * 実際のカーディナリティはexact ディレクトに置く．
         * 例　../exact/netflix/netflix_thr4.csv
