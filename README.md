@@ -15,6 +15,6 @@
         * Each line is ``id, cardinality``.
 * Test result is obtained by a csv file.
     * Each line consists of ``query id, real cardinality, estimated cardinality, error, running time``.
-* Parameter setting is via ``threshold.txt & sampling_number.txt`` at parameter directory.
+* Parameter setting is via ``threshold.txt & sampling_number.txt`` at ``parameter`` directory.
 * Compile: ``g++ -O3 -o facetts.out facetts.cpp -std=c++11``
 * Run: ``./facetts.out``
