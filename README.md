@@ -12,9 +12,9 @@
         * Ex.)　../dataset/netflix_mf-50.txt
     * If you want to test accuracy, the ground truth datasets have to be at ``exact`` directory．
         * Ex.)　../exact/netflix/netflix_thr4.csv
-        * Each line is ``id, cardinality''
-* 実行結果はcsv形式で出力する．
-    * 結果の各行： クエリid，実際のカーディナリティ，推定したカーディナリティ，相対誤差，オンラインの実行時間
+        * Each line is ``id, cardinality``
+* Test result is obtained by a csv file.
+    * Each line consists of ``query id, real cardinality, estimated cardinality, error, running time``
 * パラメータはprameterディレクトリにあるthreshold.txt,   sampling_number.txtから読み込む.
-* コンパイル：g++ -O3  -o facetts.out facetts.cpp -std=c++11
-* 実行：./facetts.out
+* Compile: ``g++ -O3 -o facetts.out facetts.cpp -std=c++11``
+* Run: ``./facetts.out``
