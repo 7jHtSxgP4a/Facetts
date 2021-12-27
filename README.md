@@ -1,5 +1,5 @@
 ## Facetts
-* An algorithm for estimating the cardinality in inner product spaces
+* An algorithm for estimating cardinality in inner product spaces
 
 ## Environment
 * Linux OS (Ubuntu)
