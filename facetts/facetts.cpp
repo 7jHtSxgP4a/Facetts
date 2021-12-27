@@ -53,7 +53,7 @@ vector<string> split(string& input, char delimiter)
 
 double input_threshold(){
     ifstream ifs("./parameter/threshold.txt");//dataset path
-    if(!ifs){//開かなかった時
+    if(!ifs){
         cout<<"Error! File can not be opened"<<endl;
     }
     string line;
@@ -67,7 +67,7 @@ double input_threshold(){
 
 int input_sampling_number(){
     ifstream ifs("./parameter/sampling_number.txt");//dataset path
-    if(!ifs){//開かなかった時
+    if(!ifs){
         cout<<"Error! File can not be opened"<<endl;
     }
     string line;
@@ -82,7 +82,7 @@ int input_sampling_number(){
 
 void input(vector<vector<double> > &data_p, vector<vector<double> > &data_q){
     ifstream ifs("../dataset/netflix_mf-50.txt");//dataset path
-    if(!ifs){//開かなかった時
+    if(!ifs){
         cout<<"Error! File can not be opened"<<endl;
     }
 
@@ -280,7 +280,7 @@ double sampling( vector<double> &query, vector<vector<double> > &data_p, vector<
 //input exact
 void exa_in(vector<vector<int> > &exa_vec){
     ifstream ifs("../exact/netflix/netflix_thr4.csv");
-    if(!ifs){//開かなかった時
+    if(!ifs){
         cout<<"Error! File can not be opened"<<endl;
     }
     string line;
