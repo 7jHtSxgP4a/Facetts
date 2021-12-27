@@ -1,4 +1,4 @@
-## facetts
+## Facetts
 * An algorithm for estimating the cardinality in inner product spaces
 
 ## Environment
